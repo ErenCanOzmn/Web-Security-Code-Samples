@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: rgba(71, 147, 227, 1);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Header Styles */
+.header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+.header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+.header nav {
+    text-align: right;
+}
+.header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Content Styles */
+.container {
+    margin-top: 20px;
+}
+.menu .list-group-item {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.news {
+    background: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+.news img.news-image {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.news h3 {
+    margin-top: 0;
+}
+.neden-biz {
+    background: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.neden-biz img.neden-biz-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.complaint {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.complaint h5 {
+    margin-top: 0;
+    font-size: 18px;
+}
